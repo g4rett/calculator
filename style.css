@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.569);
+}
+.calculator-container {
+    display: flex;
+    width: 500px;
+    height:600px;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    
+}
+.screen-display {
+    height: 100px;
+    width: 100%;
+    border: 20px solid black;
+    background-color: #BAC4A8;
+    text-align: right;
+}
+.button-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+}
+.button-container button {
+    font-size: 20px;
+    height: 70px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+    
+}
+.button-container .button-clear-all {
+    background-color: rgb(186, 54, 54);
+    color: white;
+}
+.button-container .button-operator-equals {
+    background-color: rgb(70, 249, 70);
+}
+.button-row-0 {
+    display: flex;
+    
+    gap: 10px;
+}
+.button-row-1 {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    
+}
+.button-row-2 {
+    display: flex;
+    gap: 10px;
+    
+}
+.button-row-3 {
+    display: flex;
+    gap: 10px;
+    
+}
+.button-row-4 {
+    display: flex;
+    gap: 10px;
+    
+}
